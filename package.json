@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-sonybraviatv-input",
+  "version": "1.0.0",
+  "description": "Sony Bravia TV input support for Homebridge: https://github.com/nfarina/homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "Sony",
+    "Bravia",
+    "TV"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arnif/homebridge-sonybraviatv-input.git"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "sony-bravia-tv-remote-v2": "^2.0.0",
+  }
+}
