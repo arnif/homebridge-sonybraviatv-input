@@ -1,4 +1,4 @@
-# homebridge-sonybraviatv
+# homebridge-sonybraviatv-input
 A home bridge plugin for Sony Bravia TVs based on Android TV.
 Currently it supports powering on and off TVs using a preshared key.
 
@@ -26,7 +26,7 @@ Configuration sample:
  ```
 "accessories": [
 	{
-		"accessory": "SonyBraviaTV",
+		"accessory": "SonyBraviaTV-input",
 		"name": "My TV Name",
 		"ipaddress": "YOUR TV IP ADDRESS HERE",
 		"presharedkey": "YOUR PRESHARED KEY HERE",
